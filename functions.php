@@ -37,7 +37,7 @@ function get_articles_feed( $number = 20, $highlight = null, $time = true, $excl
 
 		if ( $yesterday && !$checked ) { ?>
 			</ul>
-			<div><strong><?php echo get_the_time( 'd.m.Y', $theid ); ?></strong></div>
+			<div><strong><?php echo get_the_time( 'd.m.Y', $the_id ); ?></strong></div>
 			<ul>
 		<?php }
 
